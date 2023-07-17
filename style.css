@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    color: #1d1d1d;
+    background: #c4d0dc;
+}
+
+.logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-top:5px solid #024702;
+    background: linear-gradient(to right, #31493C, #3a8d3a);
+    padding: 10px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size:large;
+}  
+
+.logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-top:5px solid #024702;
+    background: linear-gradient(to right, #31493C, #3a8d3a);
+    padding: 10px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size:large;
+}  
+
+.logo p {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.logo legend {
+    font-size: small;
+}
+
+h2 {
+    background-color: #1d1d1d;
+    color: #fff;
+}
+
+legend {
+    text-align: center;
+}
+
+#download-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white; 
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+  
+#download-button:hover {
+    background-color: #45a049; 
+}
+
+.body p, h2, img, legend, button, ul, li {
+    position: relative;
+    z-index: 1;
+    margin: 20px 15%;
+    text-align: center;
+}
+
+section { 
+    padding: 40px 0;
+}
+
+.image {
+    height: 380px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url(assets/icons/plano-de-fundo-texturizado-com-pincelada-bege.jpg);
+}
+
+.text {
+    display: flex;
+    background: #fff;
+    position: relative;
+}
+
+.text::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 150%;
+    height: 125%;
+    background: #ffff;
+    rotate: -3deg;
+    translate: -50% -50%;
+}
