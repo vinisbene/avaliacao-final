@@ -1,0 +1,11 @@
+.logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-top:5px solid #024702;
+    background: linear-gradient(to right, #31493C, #3a8d3a);
+    padding: 10px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size:large;
+}  
