@@ -2,6 +2,7 @@ body {
     margin: 0;
     color: #1d1d1d;
     background: #c4d0dc;
+    font-family: 'Roboto', sans-serif;
 }
 
 .logo {
@@ -63,7 +64,7 @@ legend {
     background-color: #45a049; 
 }
 
-.body p, h2, img, legend, button, ul, li {
+.body p, h2, h3, img, legend, button, ul, li {
     position: relative;
     z-index: 1;
     margin: 20px 15%;
@@ -99,4 +100,14 @@ section {
     background: #ffff;
     rotate: -3deg;
     translate: -50% -50%;
+}
+
+footer {
+    width: 100%;
+}
+
+footer p  {
+    width: 70%;
+    background: #ff0000;
+    color: #ffffff;
 }
