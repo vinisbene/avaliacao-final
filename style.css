@@ -63,7 +63,7 @@ legend {
     background-color: #45a049; 
 }
 
-.body p, h2, img, legend, button {
+.body p, h2, img, legend, button, ul, li {
     position: relative;
     z-index: 1;
     margin: 20px 15%;
